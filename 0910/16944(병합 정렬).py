@@ -80,4 +80,6 @@ for tc in range(1, T + 1):
     N = int(input().strip())  # 배열 길이
     arr = list(map(int, input().split()))  # 배열
     cnt = 0  # 조건 만족 횟수 카운트
+    
+    merge_sort(0, N)
     print(f"#{tc} {arr[N // 2]} {cnt}")  
